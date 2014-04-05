@@ -1,6 +1,7 @@
 // Based on: Adafruit_ST7735 > graphicstest_highspeed
 // And: http://www.instructables.com/id/Arduino-Watch-Build-Instructions/
 
+#include <Arduino.h>        // To ensure this compiles on OS X with Arduino 1.0.5 IDE
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <Adafruit_ST7735.h> // Hardware-specific library
 #include <SPI.h>
